@@ -3,22 +3,22 @@
   --head: Playful Display;
 }
 .hello-mf {
-  font: var(--content);
+  font-family: var(--content);
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
   text-align: center;
-  margin-top: 194.18px;
+  padding-top: 194.18px;
 }
 .name-hp {
-  font: var(--head);
+  font-family: var(--head);
   font-weight: 700;
   font-size: 96px;
   line-height: 127.97px;
   text-align: center;
 }
 .font-small {
-  font: var(--content);
+  font-family: var(--content);
   margin-top: 24px;
   text-align: center;
   font-weight: 400;
@@ -30,9 +30,9 @@
   background: #f9f7fe;
   width: 100%;
 }
-#get-started {
+#contact-me {
   text-decoration: none;
-  font: var(--content);
+  font-family: var(--content);
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -45,16 +45,7 @@
   border-radius: 4px;
   margin-bottom: 271px;
 }
-.nav {
-  padding-top: 40px;
-  /* padding-left: 165px;
-  padding-right: 139px; */
-}
-.nav-center {
-  margin-bottom: 194.18px;
-  text-align: center;
-  background: #f9f7fe !important;
-}
+
 .container {
   margin: 0;
   padding: 0;
