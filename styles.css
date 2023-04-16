@@ -79,7 +79,7 @@
   font-weight: 700;
   font-size: 64px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: 1px solid #000000;
+
   font-family: Playful Display !important;
 }
 .text1 {
@@ -87,6 +87,12 @@
 }
 .yog-text {
   margin-top: 55px !important;
+  font-family: var(--content);
+  font-weight: 400;
+  list-style: 30px;
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.7);
+  margin-bottom: 50px;
 }
 .view1 {
   border: 1px solid #6c63ff;
@@ -94,4 +100,72 @@
   text-align: center;
   padding: 18px 30px;
   text-decoration: none;
+  color: #6c63ff;
+}
+.social-media {
+  margin-bottom: 133px;
+  margin-top: 41px;
+  display: flex;
+  justify-content: center;
+}
+.twitter {
+  margin-right: 33px;
+  margin-left: 33px;
+}
+.my-mail {
+  text-decoration: none;
+  font-family: var(--content);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 81px;
+}
+.purple2 {
+  background: #f9f7fe;
+  margin-left: 67px;
+  margin-right: 213px;
+}
+.work-text {
+  padding-top: 49px;
+  padding-bottom: 42px;
+  margin-left: 107px;
+}
+.lets-talk {
+  color: white;
+  background: #6c63ff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 18px 30px;
+  max-width: 200px;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 91px;
+  margin-top: 71px;
+  margin-bottom: 66px;
+  margin-left: 271px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--content);
+  font-style: normal;
+}
+.work-inquiry {
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: black;
+  margin-bottom: 18px;
+}
+.lets-work {
+  font-family: var(--content);
+  color: rgba(39, 33, 66, 0.7);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 }
