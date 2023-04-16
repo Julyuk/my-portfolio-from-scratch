@@ -54,3 +54,44 @@
 .color {
   background: #f9f7fe;
 }
+.text-pr {
+  font-family: var(--content);
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 127px;
+  padding-bottom: 82px;
+}
+.yogurt-project {
+  margin-bottom: 70px;
+}
+.weather-project {
+  margin-bottom: 60px;
+}
+.dictionary-project {
+  margin-bottom: 132px;
+}
+.yog-name {
+  font-family: var(--head);
+  line-height: 85.31px;
+  font: bold;
+  font-weight: 700;
+  font-size: 64px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000000;
+  font-family: Playful Display !important;
+}
+.text1 {
+  padding-top: 95px !important;
+}
+.yog-text {
+  margin-top: 55px !important;
+}
+.view1 {
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 18px 30px;
+  text-decoration: none;
+}
