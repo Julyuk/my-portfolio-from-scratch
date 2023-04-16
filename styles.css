@@ -270,4 +270,19 @@
     margin-right: 8%;
     margin-left: 8%;
   }
+  .yog-text {
+    padding: 0;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .yog-name {
+    font-size: 48px;
+    padding: 0;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
 } ;
