@@ -101,6 +101,15 @@
   padding: 18px 30px;
   text-decoration: none;
   color: #6c63ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--content);
+}
+.view1:hover {
+  text-decoration: none;
+  color: white;
+  background: #6c63ff;
 }
 .social-media {
   margin-bottom: 133px;
@@ -123,6 +132,10 @@
   display: flex;
   justify-content: center;
   margin-top: 81px;
+}
+.my-mail:hover {
+  text-decoration: none;
+  color: #6c63ff;
 }
 .purple2 {
   background: #f9f7fe;
@@ -154,6 +167,13 @@
   font-family: var(--content);
   font-style: normal;
 }
+.lets-talk:hover {
+  text-decoration: none;
+  color: #6c63ff;
+  background: white;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+}
 .work-inquiry {
   font-family: var(--head);
   font-weight: 700;
@@ -169,3 +189,85 @@
   font-size: 18px;
   line-height: 27px;
 }
+@media (max-width: 900px) {
+  .my-mail {
+    font-size: 16px;
+  }
+  .hello-mf {
+    font-size: 24px;
+    padding-top: 96px;
+  }
+  .name-hp {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .purple {
+    padding: 80px 20px;
+  }
+  .purple2 {
+    padding: 4px;
+    margin: 4px;
+  }
+  #contact-me {
+    margin-bottom: 64px;
+  }
+  .purple2 {
+    margin-left: 16px;
+    margin-right: 30px;
+  }
+  .lets-talk {
+    font-size: 16px;
+    padding: 18px 30px;
+  }
+  .yogurt-project {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .weather-project {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .dictionary-project {
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  .text1 {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  .lets-talk {
+    display: flex;
+    justify-content: center;
+    margin: 16px 8px;
+    max-width: 80%;
+  }
+  .work-text {
+    text-align: center;
+    padding: 4px;
+    margin: 4%;
+  }
+  .work-inquiry {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .lets-work {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .text-pr {
+    display: flex;
+    justify-content: center;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+} ;
