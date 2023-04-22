@@ -179,7 +179,7 @@ nav li.active a {
 .purple2 {
   background: #f9f7fe;
   margin-left: 67px;
-  margin-right: 213px;
+  margin-right: 180px;
 }
 .work-text {
   padding-top: 49px;
@@ -276,13 +276,13 @@ nav li.active a {
   border-radius: 4px;
 }
 .about-pt1 {
-  margin-top: 40px;
+  margin-top: 64px;
   margin-left: 139px;
   margin-right: 140px;
   margin-bottom: 204px;
 }
 .work-h1 {
-  margin-top: 177.18px;
+  margin-top: 80px;
   font-family: var(--head);
   font-style: normal;
   font-weight: 700;
@@ -325,8 +325,10 @@ nav li.active a {
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
-  margin-top: 177.18px;
+  margin-top: 120px;
   margin-bottom: 100px;
+
+  text-align: center;
 }
 .logo {
   max-width: 150px;
@@ -417,6 +419,7 @@ nav li.active a {
     justify-content: center;
     margin-right: 8%;
     margin-left: 8%;
+    padding-bottom: 64px;
   }
   .yog-text {
     padding: 0;
@@ -433,6 +436,9 @@ nav li.active a {
     margin-left: 4%;
     margin-right: 4%;
   }
+  .social-media {
+    margin-bottom: 48px;
+  }
   .about-pt1 {
     text-align: center;
     margin-top: 16px;
@@ -447,13 +453,19 @@ nav li.active a {
   }
   .about-h1-name {
     font-size: 48px;
+    margin-top: 36px;
   }
   .work-h1 {
     text-align: center;
     font-size: 48px;
+    margin-top: 36px;
+    margin-bottom: 36px;
   }
   .contact-h1 {
     text-align: center;
     font-size: 48px;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 48px;
   }
 } ;
