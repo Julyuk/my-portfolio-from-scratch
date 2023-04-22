@@ -188,6 +188,60 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+  line-height: 85.31px;
+}
+.about-h1-name {
+  font-family: var(--head);
+  font-weight: 700;
+  font-size: 64px;
+  padding-bottom: 29px;
+}
+.about-h2-about {
+  font-family: var(--content);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #272142;
+}
+.about-text {
+  font-family: var(--content);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(39, 33, 66, 0.7);
+  padding-top: 28px;
+  padding-bottom: 48px;
+}
+.view-all-pr {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 18px 30px;
+  max-width: 200px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--content);
+  font-style: normal;
+  margin-bottom: 24px;
+}
+.view-all-pr:hover {
+  text-decoration: none;
+  color: #6c63ff;
+  background: white;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+}
+.about-pt1 {
+  margin-top: 40px;
+  margin-left: 139px;
+  margin-right: 140px;
+  margin-bottom: 204px;
 }
 @media (max-width: 900px) {
   .my-mail {
@@ -284,5 +338,20 @@
     margin-bottom: 4%;
     margin-left: 4%;
     margin-right: 4%;
+  }
+  .about-pt1 {
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+  .view-pr {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+  }
+  .about-h1-name {
+    font-size: 48px;
   }
 } ;
