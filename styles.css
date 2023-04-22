@@ -149,6 +149,16 @@ nav li.active a {
 .twitter {
   margin-right: 33px;
   margin-left: 33px;
+  color: #6c63ff;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+  background: #f9f7fe;
+}
+.twitter:hover {
+  background: #6c63ff;
+  color: #f9f7fe;
 }
 .my-mail {
   text-decoration: none;
