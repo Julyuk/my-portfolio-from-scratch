@@ -141,7 +141,7 @@ nav li.active a {
   background: #6c63ff;
 }
 .social-media {
-  margin-bottom: 133px;
+  margin-bottom: 42px;
   margin-top: 41px;
   display: flex;
   justify-content: center;
@@ -175,6 +175,28 @@ nav li.active a {
 .my-mail:hover {
   text-decoration: none;
   color: #6c63ff;
+}
+.src {
+  color: #6c63ff;
+  text-decoration: none;
+}
+.src:hover {
+  color: rgba(39, 33, 66, 0.7);
+  text-decoration: none;
+}
+.open-src {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--content);
+  font-weight: 100;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 81px;
+  margin-bottom: 96px;
 }
 .purple2 {
   background: #f9f7fe;
@@ -360,6 +382,11 @@ nav li.active a {
   }
   #contact-me {
     margin-bottom: 64px;
+  }
+  .open-src {
+    margin-bottom: 36px;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .purple2 {
     margin-left: 16px;
