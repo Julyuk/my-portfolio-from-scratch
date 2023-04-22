@@ -2,6 +2,35 @@
   --content: Poppins;
   --head: Playful Display;
 }
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 20px 10px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding: 20px 0;
+  line-height: 42px;
+}
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--content);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+nav a:hover {
+  color: #6c63ff;
+  text-decoration: none;
+}
+nav li.active a {
+  color: #6c63ff;
+}
 .hello-mf {
   font-family: var(--content);
   font-weight: 700;
@@ -288,6 +317,15 @@
   line-height: 85px;
   margin-top: 177.18px;
   margin-bottom: 100px;
+}
+.logo {
+  max-width: 150px;
+  max-height: 40px;
+}
+.navbar {
+  margin-top: 40px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 @media (max-width: 900px) {
   .my-mail {
